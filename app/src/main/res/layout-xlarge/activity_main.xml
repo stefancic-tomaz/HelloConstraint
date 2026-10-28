@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gumb_toast"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/modra"
+        android:backgroundTint="@null"
+        android:onClick="pokaziToast"
+        android:text="@string/toast"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/show_count" />
+
+    <Button
+        android:id="@+id/gumb_nic"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="@color/siva"
+        android:backgroundTint="@null"
+        android:onClick="ponastavi"
+        android:text="@string/zero"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@id/gumb_stej"
+        app:layout_constraintStart_toStartOf="@id/gumb_toast"
+        app:layout_constraintTop_toBottomOf="@id/gumb_toast" />
+
+    <Button
+        android:id="@+id/gumb_stej"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="@color/modra"
+        android:backgroundTint="@null"
+        android:onClick="countUp"
+        android:text="@string/count"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@id/show_count"
+        app:layout_constraintStart_toStartOf="@id/gumb_toast" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="0dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/rumena"
+        android:gravity="center"
+        android:text="@string/nic"
+        android:textColor="@color/modra"
+        android:textSize="240sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gumb_toast"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

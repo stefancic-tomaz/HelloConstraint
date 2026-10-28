@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="modra">#3F51B5</color>
+    <color name="temno_modra">#303F9F</color>
+    <color name="rumena">#FFF23D</color>
+    <color name="siva">#A9A9A9</color>
+    <color name="roza">#FF4081</color>
+</resources>

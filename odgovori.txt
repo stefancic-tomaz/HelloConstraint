@@ -1,0 +1,9 @@
+1. Gumb Zero je navpično na sredini zaradi omejitev app:layout_constraintTop_toBottomOf in app:layout_constraintBottom_toTopOf.
+
+2. Za vodoravno poravnavo poskrbi app:layout_constraintStart_toStartOf.
+
+3. Pravilen odgovor je c. Gumb lahko dodamo v zavihku Design ali kopiramo njegovo XML-kodo v postavitvi layout-land in layout-xlarge.
+
+4. Pravilen odgovor je b: public void callMethod(View view).
+
+5. Pravilen odgovor je b. Uporabimo parameter view in na njem pokličemo setBackgroundColor().
